@@ -25,9 +25,8 @@ export default async function RootLayout({
   params: { locale: string };
 }>) {
   unstable_setRequestLocale(locale);
-
   const messages = await getMessages();
-  
+
   return (
     <html lang={locale} suppressHydrationWarning>
       <body className={clsx(dmSans.className, "antialiased")}>
