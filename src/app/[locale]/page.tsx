@@ -1,14 +1,10 @@
+import { Banner } from "@/components/Banner";
+import { Navbar } from "@/components/Navbar";
 export default function Home() {
   return (
-    <div>
-      <span
-        style={{
-          color: "black",
-        }}
-        className="text-black text-2xl"
-      >
-        hello
-      </span>
-    </div>
+    <>
+      <Banner></Banner>
+      <Navbar></Navbar>
+    </>
   );
 }

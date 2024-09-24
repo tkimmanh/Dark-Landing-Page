@@ -1,6 +1,15 @@
 {
   "HomePage": {
-    "title": "Chào thế giới!",
-    "about": "Go to the about page"
+    "banner": "Trang này được bao gồm trong một SaaS Website Kit miễn phí.",
+    "banner2": "Xem toàn bộ Kit",
+    "menu": {
+      "about": "Giới thiệu",
+      "feature": "Tính năng",
+      "updates": "Cập nhật",
+      "contact": "Liên hệ",
+      "helps": "Trợ giúp",
+      "customer": "Khách hàng",
+      "forfree": "Nhận Miễn Phí"
+    }
   }
 }

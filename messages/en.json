@@ -1,6 +1,15 @@
 {
   "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
+    "banner": "This page is included in a free SaaS Website Kit.",
+    "banner2": " View the complete Kit",
+    "menu": {
+      "home": "Home",
+      "about": "About",
+      "feature": "Feature",
+      "updates": "Updates",
+      "helps": "Helps",
+      "customer": "Customer",
+      "forfree" : "Get For Free"
+    }
   }
 }

@@ -4,7 +4,7 @@ import { locales } from "./config";
 
 export const routing = defineRouting({
   locales: [...locales],
-  defaultLocale: "en",
+  defaultLocale: "vi",
 });
 
 export const { Link, redirect, usePathname, useRouter } =
