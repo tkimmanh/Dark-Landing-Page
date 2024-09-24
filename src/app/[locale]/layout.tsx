@@ -4,7 +4,7 @@ import clsx from "clsx";
 import "./globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, unstable_setRequestLocale } from "next-intl/server";
-import { routing } from "@/i18n/routing";
+import { locales } from "@/i18n/config";
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 };
 
 export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
+  return locales.map((locale) => ({ locale }));
 }
 
 export default async function RootLayout({
@@ -25,9 +25,11 @@ export default async function RootLayout({
   params: { locale: string };
 }>) {
   unstable_setRequestLocale(locale);
+
   const messages = await getMessages();
+  
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
       <body className={clsx(dmSans.className, "antialiased")}>
         <NextIntlClientProvider messages={messages}>
           {children}
