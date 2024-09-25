@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
-import EcosytemIcon from "../assets/icons/ecosystem.svg";
+import FeatureAnimation from "./animations/FeatureAnimation";
+
 const features = [
   {
     title: "Integration Ecosystem",
@@ -31,19 +32,14 @@ export const Features = () => {
             {t("description")}
           </p>
         </div>
-        <div className="mt-16 flex flex-col sm:flex-row  gap-4">
+        <div className="mt-16 flex flex-col sm:flex-row gap-4 sm:flex-1">
           {features.map((feature, index) => {
             return (
-              <div
-                key={index}
-                className="border border-white/30 px-5 py-10 text-center rounded-xl"
-              >
-                <div className="inline-flex rounded-xl h-14 w-14 bg-white text-black justify-center items-center sm:flex-1">
-                  <EcosytemIcon />
-                </div>
-                <h3 className="mt-6 font-bold ">{feature.title}</h3>
-                <p className="mt-2 text-white/70">{feature.description}</p>
-              </div>
+              <FeatureAnimation
+                key={feature.title}
+                description={feature.description}
+                title={feature.title}
+              />
             );
           })}
         </div>

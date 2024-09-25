@@ -1,10 +1,6 @@
 "use client";
-import { useState } from "react";
-import PlusIcon from "../assets/icons/plus.svg";
-import MinusIcon from "../assets/icons/minus.svg";
-import clsx from "clsx";
 import { useTranslations } from "next-intl";
-
+import AccordionItem from "@/components/animations/AccordionAnimation";
 const items = [
   {
     question: "What payment methods do you accept?",
@@ -27,32 +23,6 @@ const items = [
       "Security is our top priority. We use state-of-the-art encryption and comply with the best industry practices to ensure that your data is stored securely and accessed only by authorized users.",
   },
 ];
-
-const AccordionItem = ({
-  question,
-  answer,
-}: {
-  question: string;
-  answer: string;
-}) => {
-  const [isOpen, setIsOpen] = useState(false);
-  return (
-    <div key={question} className="py-7 border-b border-white/30 w-full ">
-      <div className="flex items-center" onClick={() => setIsOpen(!isOpen)}>
-        <span className="flex-1 text-lg font-bold">{question}</span>
-        {isOpen ? <MinusIcon></MinusIcon> : <PlusIcon></PlusIcon>}
-      </div>
-      <div
-        className={clsx("mt-4", {
-          hidden: !isOpen,
-          "": isOpen == true,
-        })}
-      >
-        {answer}
-      </div>
-    </div>
-  );
-};
 
 export const FAQs = () => {
   const t = useTranslations("HomePage.faqs");
