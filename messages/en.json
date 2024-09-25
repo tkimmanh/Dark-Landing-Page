@@ -9,7 +9,14 @@
       "updates": "Updates",
       "helps": "Helps",
       "customer": "Customer",
-      "forfree" : "Get For Free"
-    }
+      "forfree": "Get For Free"
+    },
+    "hero": {
+      "title": "Version 2.0 is here",
+      "readMore": "Read More",
+      "description": "Celebrate the joy of accomplishment with an app designed to track your progress, motivate your efforts, and celebrate your successes.",
+      "button": "Get for free"
+    },
+    "logoTicker": "Trusted by the world’s most innovative teams"
   }
 }

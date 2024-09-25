@@ -10,6 +10,13 @@
       "helps": "Trợ giúp",
       "customer": "Khách hàng",
       "forfree": "Nhận Miễn Phí"
-    }
+    },
+    "hero": {
+      "title": "Phiên bản 2.0 đã ra mắt",
+      "readMore": "Đọc thêm",
+      "description": "Ăn mừng niềm vui của sự thành công với một ứng dụng được thiết kế để theo dõi tiến độ của bạn, thúc đẩy nỗ lực của bạn và ăn mừng những thành công của bạn.",
+      "button": "Nhận miễn phí"
+    },
+    "logoTicker": "Được tin cậy bởi những nhóm sáng tạo hàng đầu thế giới"
   }
 }
