@@ -3,6 +3,7 @@ import LogoImage from "../assets/images/logosaas.png";
 import MenuIcon from "../assets/icons/menu.svg";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import ChangeLanguage from "./ChangeLanguage";
 export const Navbar = () => {
   const t = useTranslations("HomePage.menu");
   return (
@@ -47,6 +48,9 @@ export const Navbar = () => {
             >
               {t("customer")}
             </Link>
+
+            <ChangeLanguage></ChangeLanguage>
+
             <button className="bg-white py-2 px-4 rounded-lg text-black">
               {t("forfree")}
             </button>

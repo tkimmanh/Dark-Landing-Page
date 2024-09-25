@@ -11,6 +11,11 @@
       "customer": "Khách hàng",
       "forfree": "Nhận Miễn Phí"
     },
+    "SwitchLanguage": {
+      "title": "Đổi ngôn ngữ",
+      "en": "Tiếng Anh",
+      "vi": "Tiếng Việt"
+    },
     "hero": {
       "title": "Phiên bản 2.0 đã ra mắt",
       "readMore": "Đọc thêm",

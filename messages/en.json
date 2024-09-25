@@ -11,6 +11,11 @@
       "customer": "Customer",
       "forfree": "Get For Free"
     },
+    "SwitchLanguage": {
+      "title": "Switch language",
+      "en": "English",
+      "vi": "Vietnamese"
+    },
     "hero": {
       "title": "Version 2.0 is here",
       "readMore": "Read More",
