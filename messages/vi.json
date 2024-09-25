@@ -17,6 +17,43 @@
       "description": "Ăn mừng niềm vui của sự thành công với một ứng dụng được thiết kế để theo dõi tiến độ của bạn, thúc đẩy nỗ lực của bạn và ăn mừng những thành công của bạn.",
       "button": "Nhận miễn phí"
     },
-    "logoTicker": "Được tin cậy bởi những nhóm sáng tạo hàng đầu thế giới"
+    "logoTicker": "Được tin cậy bởi những nhóm sáng tạo hàng đầu thế giới",
+    "callToAction": {
+      "title": "Nhận truy cập ngay",
+      "description": "Ăn mừng niềm vui của sự thành công với một ứng dụng được thiết kế để theo dõi tiến độ của bạn và thúc đẩy nỗ lực của bạn.",
+      "button": "Nhận truy cập"
+    },
+    "feature": {
+      "title": "Mọi thứ bạn cần",
+      "description": "Tận hưởng các danh sách có thể tùy chỉnh, công cụ làm việc nhóm và theo dõi thông minh tất cả trong một nơi. Đặt nhiệm vụ, nhận nhắc nhở và xem tiến độ của bạn một cách đơn giản và nhanh chóng."
+    },
+    "productShowCase": {
+      "title": "Giao diện trực quan",
+      "description": "Ăn mừng niềm vui của sự thành công với một ứng dụng được thiết kế để theo dõi tiến độ của bạn, thúc đẩy nỗ lực của bạn và ăn mừng những thành công của bạn, từng nhiệm vụ một."
+    },
+    "faqs": {
+      "title": "Câu hỏi thường gặp",
+      "questions": [
+        {
+          "question": "Phương thức thanh toán nào bạn chấp nhận?",
+          "answer": "Chúng tôi chấp nhận tất cả các thẻ tín dụng chính, PayPal và các phương thức thanh toán khác tùy thuộc vào vị trí của bạn. Vui lòng liên hệ với đội ngũ hỗ trợ của chúng tôi để biết thêm thông tin về các phương thức thanh toán được chấp nhận trong khu vực của bạn."
+        },
+        {
+          "question": "Giá cả cho các nhóm hoạt động như thế nào?",
+          "answer": "Giá của chúng tôi là tính trên mỗi người dùng, mỗi tháng. Điều này có nghĩa là bạn chỉ trả tiền cho số lượng thành viên trong nhóm của mình. Giảm giá có sẵn cho các nhóm lớn và đăng ký hàng năm."
+        },
+        {
+          "question": "Tôi có thể thay đổi gói của mình sau này không?",
+          "answer": "Có, bạn có thể nâng cấp hoặc hạ cấp gói của mình bất cứ lúc nào. Các thay đổi đối với gói sẽ được tính theo tỷ lệ và sẽ hiển thị trong chu kỳ thanh toán tiếp theo của bạn."
+        },
+        {
+          "question": "Dữ liệu của tôi có an toàn không?",
+          "answer": "Bảo mật là ưu tiên hàng đầu của chúng tôi. Chúng tôi sử dụng mã hóa hiện đại và tuân thủ các phương thức bảo mật tốt nhất để đảm bảo rằng dữ liệu của bạn được lưu trữ an toàn và chỉ những người dùng được ủy quyền mới có thể truy cập."
+        }
+      ]
+    },
+    "footer": {
+      "title": "© 2024 Công ty của bạn, Inc. Tất cả các quyền được bảo lưu"
+    }
   }
 }
