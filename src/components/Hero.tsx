@@ -1,10 +1,7 @@
-import cursorImage from "../assets/images/cursor.png";
 import ArrowIcon from "../assets/icons/arrow-w.svg";
-import messageImage from "../assets/images/message.png";
-
 import Link from "next/link";
-import Image from "next/image";
 import { useTranslations } from "next-intl";
+import HeroAnimation from "./animations/HeroAnimation";
 
 export const Hero = () => {
   const t = useTranslations("HomePage.hero");
@@ -32,21 +29,7 @@ export const Hero = () => {
               One Task <br />
               at a time
             </h1>
-            <Image
-              src={cursorImage}
-              height={200}
-              quality={100}
-              alt="cursor-image"
-              className="absolute right-[470px] top-[109px] hidden sm:inline"
-            ></Image>
-            <Image
-              src={messageImage}
-              width={200}
-              height={200}
-              quality={100}
-              className="absolute top-[56px] left-[498px] hidden sm:inline"
-              alt="message-image"
-            ></Image>
+            <HeroAnimation></HeroAnimation>
           </div>
         </div>
         <div className="flex justify-center">
